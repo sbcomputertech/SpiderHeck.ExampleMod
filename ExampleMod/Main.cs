@@ -41,7 +41,7 @@ namespace ExampleMod
     public class VersionNumberTextMeshPatch
     {
         // Postfix is called after executing target method's code.
-        public void Postfix(VersionNumberTextMesh __instance)
+        public static void Postfix(VersionNumberTextMesh __instance)
         {
             // We're adding new line to version text.
             __instance.textMesh.text += $"\n<color=red>{Main.ModName} v{Main.ModVersion} by {Main.ModAuthor}</color>";
