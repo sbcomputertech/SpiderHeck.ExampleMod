@@ -1,5 +1,3 @@
-# The repository is now archived and it won't get updates.
-
 # ExampleMod
 Example SpiderHeck mod
 
