@@ -9,7 +9,7 @@ namespace ExampleMod
         public const string ModName = "ExampleMod";
         public const string ModAuthor  = "Aer";
         public const string ModGUID = "com.aer.examplemod";
-        public const string ModVersion = "1.0.0";
+        public const string ModVersion = "1.0.1";
         internal Harmony Harmony;
         internal void Awake()
         {
@@ -28,7 +28,7 @@ namespace ExampleMod
      */
 
     // Here's the example of harmony patch
-    [HarmonyPatch(typeof(VersionNumberTextMesh), "Start")]
+    [HarmonyPatch(typeof(VersionNumberTextMesh), nameof(VersionNumberTextMesh.Start))]
     /* We're patching the method "Start" of class VersionNumberTextMesh
     * The first argument can typeof(class) or class name (string). Warning: it's case-sensitive
     * The second argument is our method. It can be a nameof(class.method) or method name (string). Also case-sensitive
@@ -36,7 +36,6 @@ namespace ExampleMod
     * [HarmonyPatch("VersionNumberTextMesh", "Start")]
     * Or like this:
     * [HarmonyPatch(typeof(VersionNumberTextMesh), nameof(VersionNumberTextMesh.Start))
-    * But the method Start is private and can't be accesed like that. So we have to use the method name (string) instead.
     */
     public class VersionNumberTextMeshPatch
     {
