@@ -1,0 +1,12 @@
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.AssemblyReference.cache
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.GeneratedMSBuildEditorConfig.editorconfig
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.AssemblyInfoInputs.cache
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.AssemblyInfo.cs
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.CoreCompileInputs.cache
+/home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/ExampleMod.deps.json
+/home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/ExampleMod.dll
+/home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/0Harmony.dll
+/home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/BepInEx.Core.dll
+/home/ecorous/temp/ExampleMod/ExampleMod/bin/Release/netstandard2.0/BepInEx.Unity.dll
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.CopyComplete
+/home/ecorous/temp/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.dll

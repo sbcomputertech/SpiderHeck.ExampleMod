@@ -13,13 +13,21 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <GameVersion>0.76.1-r.1</GameVersion>
+        <GameVersion>1.0.0-r.0</GameVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BepInEx.Unity" Version="6.0.0-be.556" PrivateAssets="all" />
+	    <!-- <PackageReference Include="BepInEx.Unity" Version="6.0.0-be.556" PrivateAssets="all" /> -->
         <PackageReference Include="SpiderHeck.GameLibs" Version="$(GameVersion)" PrivateAssets="all" />
-
+	<Reference Include="BepInEx.Core">
+	    <HintPath>..\References\BepInEx.Core.dll</HintPath>
+    	</Reference>
+	<Reference Include="0Harmony">
+	    <HintPath>..\References\0Harmony.dll</HintPath>
+    	</Reference>
+	<Reference Include="BepInEx.Unity">
+	    <HintPath>..\References\BepInEx.Unity.dll</HintPath>
+	</Reference>
         <PackageReference Include="UnityEngine.Modules" Version="2020.3.13" PrivateAssets="all" />
     </ItemGroup>
 

@@ -7,8 +7,8 @@ namespace ExampleMod
     public class Main : BaseUnityPlugin
     {
         public const string ModName = "ExampleMod";
-        public const string ModAuthor  = "Aer";
-        public const string ModGUID = "com.aer.examplemod";
+        public const string ModAuthor  = "John";
+        public const string ModGUID = "com.john.examplemod";
         public const string ModVersion = "1.0.1";
         internal Harmony Harmony;
         internal void Awake()

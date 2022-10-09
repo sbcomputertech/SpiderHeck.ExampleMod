@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wC6e+BWPGp4735icnGF/QeYObgNeuC0STW/9/KLfkJRQ8fqJUAF4Gv6eXQVhatLcrU/Ml15hJbuuAY637kKeUA==",
+  "success": true,
+  "projectFilePath": "/home/ecorous/temp/ExampleMod/ExampleMod/ExampleMod.csproj",
+  "expectedPackageFiles": [
+    "/home/ecorous/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/ecorous/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/ecorous/.nuget/packages/spiderheck.gamelibs/1.0.0-r.0/spiderheck.gamelibs.1.0.0-r.0.nupkg.sha512",
+    "/home/ecorous/.nuget/packages/unityengine.modules/2020.3.13/unityengine.modules.2020.3.13.nupkg.sha512"
+  ],
+  "logs": []
+}
