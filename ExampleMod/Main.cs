@@ -3,7 +3,7 @@ using HarmonyLib;
 
 namespace ExampleMod
 {
-    [BepInPlugin(ModName, ModGUID, ModVersion)]
+    [BepInPlugin(ModGUID, ModName, ModVersion)]
     public class Main : BaseUnityPlugin
     {
         public const string ModName = "ExampleMod";
