@@ -12,13 +12,7 @@
         <Version>1.0.1</Version>
     </PropertyGroup>
 
-    <PropertyGroup>
-        <GameVersion>1.0.0-r.0</GameVersion>
-    </PropertyGroup>
-
     <ItemGroup>
-	    <!-- <PackageReference Include="BepInEx.Unity" Version="6.0.0-be.556" PrivateAssets="all" /> -->
-        <PackageReference Include="SpiderHeck.GameLibs" Version="$(GameVersion)" PrivateAssets="all" />
 	<Reference Include="BepInEx.Core">
 	    <HintPath>..\References\BepInEx.Core.dll</HintPath>
     	</Reference>
