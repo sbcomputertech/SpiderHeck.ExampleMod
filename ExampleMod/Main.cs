@@ -7,10 +7,12 @@ namespace ExampleMod
     public class Main : BaseUnityPlugin
     {
         public const string ModName = "ExampleMod";
-        public const string ModAuthor  = "John";
-        public const string ModGUID = "com.john.examplemod";
-        public const string ModVersion = "1.0.1";
+        public const string ModAuthor  = "Your Name";
+        public const string ModGUID = "com.example.mod";
+        public const string ModVersion = "1.0.2";
+        
         internal Harmony Harmony;
+        
         internal void Awake()
         {
             // Creating new harmony instance
@@ -36,14 +38,16 @@ namespace ExampleMod
     * [HarmonyPatch("VersionNumberTextMesh", "Start")]
     * Or like this:
     * [HarmonyPatch(typeof(VersionNumberTextMesh), nameof(VersionNumberTextMesh.Start))
+    * I recommend using typeof/nameof as they provide IDE auto-completion, and also throw compiler errors if you mistype a name
+    * However, in cases like private methods you would have to use the string parameters
     */
     public class VersionNumberTextMeshPatch
     {
         // Postfix is called after executing target method's code.
-        public static void Postfix(VersionNumberTextMesh __instance)
+        public static void Postfix(ref VersionNumberTextMesh __instance)
         {
             // We're adding new line to version text.
-            __instance.textMesh.text += $"\n<color=red>{Main.ModName} v{Main.ModVersion} by {Main.ModAuthor}</color>";
+            __instance.textMesh.text += $"\n<color=red>The example mod loads!</color>";
         }
     }
 }
