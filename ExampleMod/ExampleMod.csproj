@@ -13,6 +13,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+	<PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" PrivateAssets="all" Version="0.4.0" />
 	<Reference Include="BepInEx.Core">
 	    <HintPath>..\References\BepInEx.Core.dll</HintPath>
     	</Reference>
@@ -22,7 +23,7 @@
 	<Reference Include="BepInEx.Unity">
 	    <HintPath>..\References\BepInEx.Unity.dll</HintPath>
 	</Reference>
-	<Reference Include="MyScriptAssembly">
+	<Reference Include="MyScriptAssembly" Publicize="true" >
 	    <HintPath>..\References\MyScriptAssembly.dll</HintPath>
 	</Reference>
         <PackageReference Include="UnityEngine.Modules" Version="2020.3.13" PrivateAssets="all" />
